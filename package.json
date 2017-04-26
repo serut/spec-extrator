@@ -1,0 +1,19 @@
+{
+  "name": "spec-extractor",
+  "version": "1.0.0",
+  "description": "If your app uses npm link, this can extract from .spec.json files the list of spec your module covers to create a report",
+  "main": "src/index.js",
+  "bin": {
+    "spec-extractor": "src/index.js"
+  },
+  "author": "Léo Mieulet",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/serut/spec-extractor"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "minimist": "^1.2.0"
+  }
+}
